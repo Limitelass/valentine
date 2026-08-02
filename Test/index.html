@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minidu Anuhas — IT Systems Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="statusbar">
+  <div class="statusbar-inner">
+    <div class="statusbar-left">
+      <span class="dot"></span>
+      <span>ALL SYSTEMS OPERATIONAL</span>
+    </div>
+    <nav class="statusbar-nav">
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#certs">certifications</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="hero-eyebrow">status.system // uptime monitor</div>
+  <h1><span class="prompt">host&gt;</span> Minidu Anuhas</h1>
+  <p class="hero-role">
+    <strong>IT Support &amp; Systems Administrator</strong> — I keep networks, endpoints,
+    and infrastructure running, and I write the scripts that stop the same ticket
+    from happening twice.
+  </p>
+  <div class="hero-actions">
+    <a href="#projects" class="btn btn-primary">View projects</a>
+    <a href="resume.pdf" class="btn btn-ghost">Download résumé</a>
+    <a href="mailto:alex.rivera@example.com" class="btn btn-ghost">Email me</a>
+  </div>
+  <div class="uptime">
+    <div>in_field: <span>4 yrs 2 mo</span></div>
+    <div>tickets_closed: <span>2,300+</span></div>
+    <div>current_role: <span>IT Support Specialist</span></div>
+    <div>location: <span>Remote / On-site</span></div>
+  </div>
+</div>
+
+<section id="skills">
+  <div class="section-head">
+    <span class="section-tag">01</span>
+    <h2>Skills</h2>
+    <span class="section-sub">competency matrix</span>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h3>Networking</h3>
+      <ul>
+        <li>TCP/IP, DNS, DHCP</li>
+        <li>VLANs &amp; switching</li>
+        <li>Firewalls (pfSense, Fortinet)</li>
+        <li>VPN configuration</li>
+      </ul>
+    </div>
+    <div class="skill-card">
+      <h3>Systems Admin</h3>
+      <ul>
+        <li>Windows Server / AD</li>
+        <li>Linux (Ubuntu, RHEL)</li>
+        <li>Virtualization (Proxmox, VMware)</li>
+        <li>Backup &amp; disaster recovery</li>
+      </ul>
+    </div>
+    <div class="skill-card">
+      <h3>Cloud</h3>
+      <ul>
+        <li>AWS (EC2, S3, IAM)</li>
+        <li>Azure AD / Entra</li>
+        <li>Microsoft 365 admin</li>
+        <li>Basic Docker deployments</li>
+      </ul>
+    </div>
+    <div class="skill-card">
+      <h3>Scripting &amp; Tools</h3>
+      <ul>
+        <li>PowerShell automation</li>
+        <li>Bash / Python basics</li>
+        <li>Ticketing (Jira, ServiceNow)</li>
+        <li>Monitoring (Zabbix, Nagios)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="section-head">
+    <span class="section-tag">02</span>
+    <h2>Projects &amp; Labs</h2>
+    <span class="section-sub">hands-on work</span>
+  </div>
+
+  <div class="project">
+    <div class="project-top">
+      <h3>Home Lab: Segmented Network with pfSense</h3>
+      <span class="project-status">● documented</span>
+    </div>
+    <p>
+      Built a segmented home network on pfSense with separate VLANs for
+      trusted devices, IoT, and a guest network, plus a self-hosted VPN
+      for remote access. Includes network diagram and configuration notes.
+    </p>
+    <div class="project-meta">
+      <span class="tag">pfSense</span>
+      <span class="tag">VLANs</span>
+      <span class="tag">WireGuard</span>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-top">
+      <h3>PowerShell Onboarding Automation</h3>
+      <span class="project-status">● in production</span>
+    </div>
+    <p>
+      Wrote a PowerShell script suite that automates new-hire account
+      creation, group assignment, and mailbox setup in Active Directory —
+      cut manual onboarding time from ~40 minutes to under 5.
+    </p>
+    <div class="project-meta">
+      <span class="tag">PowerShell</span>
+      <span class="tag">Active Directory</span>
+      <span class="tag">Automation</span>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-top">
+      <h3>Proxmox Virtualization Cluster</h3>
+      <span class="project-status">● ongoing</span>
+    </div>
+    <p>
+      Set up a 3-node Proxmox cluster for testing server deployments,
+      snapshotting, and failover scenarios before rolling changes into
+      production environments.
+    </p>
+    <div class="project-meta">
+      <span class="tag">Proxmox</span>
+      <span class="tag">Virtualization</span>
+      <span class="tag">High Availability</span>
+    </div>
+  </div>
+</section>
+
+<section id="certs">
+  <div class="section-head">
+    <span class="section-tag">03</span>
+    <h2>Certifications</h2>
+    <span class="section-sub">credentials</span>
+  </div>
+  <div class="certs">
+    <div class="cert">
+      <div class="cert-badge">A+</div>
+      <div>
+        <h4>CompTIA A+</h4>
+        <span>Issued 2022</span>
+      </div>
+    </div>
+    <div class="cert">
+      <div class="cert-badge">NET</div>
+      <div>
+        <h4>CompTIA Network+</h4>
+        <span>Issued 2023</span>
+      </div>
+    </div>
+    <div class="cert">
+      <div class="cert-badge">SEC</div>
+      <div>
+        <h4>CompTIA Security+</h4>
+        <span>Issued 2024</span>
+      </div>
+    </div>
+    <div class="cert">
+      <div class="cert-badge">AZ</div>
+      <div>
+        <h4>Microsoft AZ-900</h4>
+        <span>Issued 2024</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-head">
+    <span class="section-tag">04</span>
+    <h2>Contact</h2>
+    <span class="section-sub">reach out</span>
+  </div>
+  <div class="contact-panel">
+    <h2>Let's talk shop.</h2>
+    <p>Open to IT support, sysadmin, and junior network engineering roles.</p>
+    <div class="contact-links">
+      <a href="mailto:alex.rivera@example.com" class="btn btn-primary">alex.rivera@example.com</a>
+      <a href="https://linkedin.com/in/yourname" class="btn btn-ghost">LinkedIn</a>
+      <a href="https://github.com/yourname" class="btn btn-ghost">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Minidu Anuhas</span>
+  <span id="clock"></span>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
